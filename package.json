@@ -1,0 +1,20 @@
+{
+  "name": "zazzy",
+  "type": "module",
+  "version": "1.0.0",
+  "version npm": "1.0.0",
+  "private": true,
+  "scripts": {
+    "zazzy": "astro dev",
+    "go": "astro dev",
+    "do": "astro build",
+    "show": "astro preview",
+    "rocket": "astro"
+  },
+  "dependencies": {
+    "astro": "^2.0.1",
+    "@astrojs/mdx": "^0.15.0",
+    "@astrojs/rss": "^2.1.0",
+    "@astrojs/sitemap": "^1.0.0"
+  }
+}

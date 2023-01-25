@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import "../styles/index.css";
+---
+
+<Layout title="Benvinguts a Adus Music.">
+	<main>
+		<h1>Benvinguts a <span class="text-gradient">Adus Music</span></h1>
+		<p class="instructions">
+			Benviguts a <code> Adus Music</code>, aquesta es la nostra carta de
+			presentació mentres renovem la nova web.<br />
+			<strong>Gràcies per la vostra visita.</strong>
+		</p>
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="https://goo.gl/maps/iSeSsmSFAewjytUA7"
+				title="Arriba a l'escola amb Google Maps."
+				body="Carrer de Sant Llorenç, 110, 08221 Terrassa, Barcelona."
+			/>
+			<Card
+				href="tel:+34666666666"
+				title="Trucans ara i informat bé dels nostres horaris!"
+				body="Trucans al 661930563 prement aquest botó, directament rebrem la teva trucada."
+			/>
+		</ul>
+	</main>
+</Layout>
+
+<style></style>
