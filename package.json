@@ -1,9 +1,9 @@
 {
-  "name": "zazzy",
+  "name": "adus",
   "type": "module",
   "version": "1.0.0",
   "version npm": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "zazzy": "astro dev",
     "go": "astro dev",
